@@ -19,7 +19,7 @@
     <logger name="org.example" level="INFO">
         <appender-ref ref="STDOUT"/>
     </logger>
-    <logger name="org.example.Main" level="DEBUG">
+    <logger name="org.example.Main" level="DEBUG" additivity="false">
         <appender-ref ref="FILE"/>
     </logger>
 </configuration>
